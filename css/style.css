@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* intestazione */
+.row::before{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.clsx{
+    float: left;
+    padding: 10px;
+        /* debug */
+        /* background-color: aqua;
+        height: 100px;
+        width: 30px; */
+}
+
+.cldx{
+    float: right;
+    padding: 10px;
+    /* debug */
+    /* background-color: aqua;
+    height: 100px;
+    width: 30px; */
+}
+
+nav div a {
+    text-decoration: none;
+    color: black;
+}
+
+#iniziabut{
+    background-color: rgb(9, 120, 247);
+    color: white;
+    padding: 5px ;
+}
