@@ -105,3 +105,21 @@ nav div a {
     margin-top: 10px;
     font-size: 30px;
 }
+
+/* corpo centrale */
+.container-medium{
+    width: 80%;
+    margin: 0 auto;
+}
+    /* sezioni paini business */
+  #cerchio{
+      display: inline;
+  }
+  .piano{
+      float: left;
+      width: 30%;
+      margin-top: 20px;
+      padding: 10px;
+      border: solid 1px rgb(184, 184, 184);
+
+  }
