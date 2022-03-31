@@ -15,6 +15,12 @@ body{
     clear: both;
 }
 
+header{
+    height: 50px;
+    background-color: white;
+    /* position: fixed; */
+}
+
 .clsx{
     float: left;
     padding: 10px;
@@ -38,8 +44,55 @@ nav div a {
     color: black;
 }
 
-#iniziabut{
+.iniziabut{
     background-color: rgb(9, 120, 247);
     color: white;
     padding: 5px ;
+}
+
+/* jumbotron */
+#jumbo{
+    background-color: #b4d0e7;
+    height: 325px;
+}
+
+.container-big{
+    width: 90%;
+    margin: 0 auto;
+}
+#jumbo .container-big h1{
+    
+    font-size: 40px;
+}
+.colonnasx{
+    float: left;
+    width: 50%;
+    padding: 20px;
+
+    /* debug */
+    /* background-color: red; */
+}
+
+.colonnadx{
+    float: left;
+    width: 50%;
+    padding: 20px;
+
+    
+}
+
+.paragrafo{
+    
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#inizbut{
+    text-decoration: none;
+    padding: 10px;
+   
+    margin-bottom: 10px;
+}
+#jumboimg{
+    max-width: 100%;
 }
