@@ -226,3 +226,19 @@ img{
      font-size: 25px;
      margin-bottom: 20px;
  }
+
+    /* sezione Operazioni dropbox */
+    .operazioni{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 30%;
+        float: left;
+        padding: 5px;
+    }
+    .operazioni-centro{
+        margin: 20px 5% 20px;
+        width: 30%;
+        float: left;
+        padding: 5px;
+
+    }
