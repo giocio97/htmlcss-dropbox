@@ -183,7 +183,7 @@ img{
 }
 /* quarto blocco */
 #quarto-blocco{
-    float: left;
+    width: 100%;
     margin-top: 20px;
     height: 200px;
     width: auto;
@@ -193,7 +193,8 @@ img{
 }
 
 #ufficio-vendite{
-        float: right;
+        float: left;
+        
         
     }
 
