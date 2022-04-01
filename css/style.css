@@ -154,7 +154,6 @@ nav div a {
   }
  .contenitore h3,  h5 {
     font-weight: bold;
-    font-size: 20px;
     margin-bottom: 15px;
    
     
@@ -178,4 +177,19 @@ nav div a {
 
  .check{color: rgb(9, 120, 247);
 }
+/* quarto blocco */
+#quarto-blocco{
+    float: left;
+    margin-top: 20px;
+    height: 200px;
+    width: auto;
+    border: solid 1px rgb(184, 184, 184);
+    
+
+}
+
+#ufficio-vendite{
+        float: right;
+        
+    }
 
