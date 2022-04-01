@@ -131,7 +131,11 @@ nav div a {
       margin-top: 30px;
       /* padding: 10px; */
       border: solid 1px rgb(184, 184, 184);
+      height: 1000px ;
+  }
 
+  #pcentrale{
+      margin: 30px 50px;
   }
   
   .int-box{
@@ -150,6 +154,7 @@ nav div a {
   }
  .contenitore h3,  h5 {
     font-weight: bold;
+    font-size: 20px;
     margin-bottom: 15px;
    
     
@@ -157,9 +162,20 @@ nav div a {
 
  #periodo{
      color: grey;
+     font-size: 12px;
     
  }
 
- h4{
+ .contenitore h4{
+     margin-top: 50px;
+     font-size: 20px;
      font-weight: bold;
  }
+ #opp{
+     padding-bottom: 30px;
+     border-bottom: solid 1px rgb(184, 184, 184);
+ }
+
+ .check{color: rgb(9, 120, 247);
+}
+
