@@ -113,7 +113,7 @@ img{
 }
     /* sezioni paini business */
   
-    section > h2{
+    .titolone{
         font-size: 40px;
         margin: 50px 0 30px;
         font-weight: 500;
