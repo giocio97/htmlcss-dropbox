@@ -243,3 +243,91 @@ img{
         padding: 5px;
 
     }
+
+    /* Team che utilizzano dropbox */
+    .quadratobrand{
+        width: 15%;
+        height: 192px;
+        float: left;
+        background-color: rgb(113, 197, 113);
+    }  
+
+
+
+    #brandtext{
+        width: 40%;
+        height: 384px;
+        float:left;
+        background-color: rgb(253, 244, 244);
+        
+    }
+
+  .big{
+      
+      height: 300px;
+       background-color: #b4d0e7;
+   }
+
+
+   /* domande frequenti */
+  
+  
+    
+    .corpodomande{
+       border-top: solid 1px grey;
+    }
+  
+   .domanda{
+       
+       float: left;
+       padding: 10px;
+       
+       
+       
+   }
+   .arrowdown{
+       
+       float: right;
+       padding: 10px;
+       
+       
+   }
+
+   /* footer */
+
+   footer{
+       background-color: black;
+       height: 300px;
+   }
+
+   .colonnafooter{
+       float: left;
+       width: 15%;
+       margin-right: 5%;
+       color: white;
+       list-style-type: none;
+       
+   }
+   .textfoot{
+       margin-bottom: 10px;
+       font-weight: bold;
+   }
+
+   .listafoot{
+    text-decoration: none;
+    color: white;
+   }
+
+   .puntifoot{
+       
+    list-style-type: none;
+    
+    
+   }
+   .colonnafooter ul li {
+       padding: 5px;
+        
+   }
+
+  
+  
