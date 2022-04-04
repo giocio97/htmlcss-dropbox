@@ -21,6 +21,7 @@ header{
     background-color: white;
     position: fixed;
     top: 0;
+    z-index: 500;
 }
 
 .clsx{
@@ -49,13 +50,19 @@ nav div a {
 .iniziabut{
     background-color: rgb(9, 120, 247);
     color: white;
-    padding: 5px ;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#ibut{
+    padding: 5px;
 }
 
 /* jumbotron */
 #jumbo{
     background-color: #b4d0e7;
-    height: 425px;
+    height: 75vh;
+    max-width: 100%;
     
 }
 
@@ -70,7 +77,8 @@ nav div a {
 }
 .colonnasx{
     float: left;
-    width: 50%;
+    width: 40%;
+    padding: 10px;
     margin-top: 20px;
     
 
@@ -80,7 +88,7 @@ nav div a {
 
 .colonnadx{
     float: left;
-    width: 50%;
+    width: 60%;
     padding: 20px;
 
     
@@ -92,12 +100,7 @@ nav div a {
     margin-bottom: 30px;
 }
 
-#inizbut{
-    text-decoration: none;
-    padding: 10px;
-   
-    margin-bottom: 20px;
-}
+
 img{
     max-width: 100%;
 }
@@ -186,14 +189,19 @@ img{
     width: 100%;
     margin-top: 20px;
     height: 200px;
-    width: auto;
+    float: left;
     border: solid 1px rgb(184, 184, 184);
     
 
 }
+.enterprice{
+    float: left;
+    width: 75%;
+}
 
 #ufficio-vendite{
-        float: left;
+        float: right;
+        width: 25%;
         
         
     }
@@ -335,9 +343,24 @@ img{
        margin-bottom: 50px;
    }
 
+   #whitebut{
+       background-color: white;
+       color: black;
+   }
+
+   #textviola{
+       color: rgb(64, 25, 64);
+       font-size: 40px;
+   }
+
+
 
    /* domande frequenti */
   
+   #textdomande{
+       margin-bottom: 30px;
+       font-size: 25px;
+   }
   
     
     .corpodomande{
@@ -350,6 +373,7 @@ img{
        float: left;
        padding: 10px;
        font-weight: bold;
+       font-size: 15px;
        
        
        
