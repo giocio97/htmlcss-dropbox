@@ -249,7 +249,7 @@ img{
         width: 30%;
         height: 384px;
         float: left;
-        background-color: rgb(113, 197, 113);
+       
     }  
 
 
@@ -259,6 +259,7 @@ img{
         height: 384px;
         float:left;
         background-color: rgb(253, 244, 244);
+        padding: 30px;
         
     }
 
@@ -266,12 +267,14 @@ img{
         float: left;
         width: 50%;
         height: 192px;
-        background-color: red;
+        position: relative;
+       
     }
    
          /* colori quadrati */
     #qverde{
         background-color: rgb(142, 226, 142);
+
     }
 
     #qbordeux{
@@ -296,9 +299,31 @@ img{
         background-color: rgb(45, 18, 140);
     }
     #qgiallo{
-        background-color: rgb(255, 255, 0);
+        background-color: rgb(255, 230, 0);
     }
 
+    .brandimg{
+        width: 60%;
+       object-fit: cover;
+       filter: invert(1);
+       position:absolute;
+       top: 35%;
+       left: 20%;
+       transform: translate(-50% -50%);
+        
+        
+    }
+
+    #logobrand{
+        width: 25%;
+       object-fit: cover;
+       padding-bottom: 20px;
+       border-bottom: 1px solid grey ;
+       margin-bottom: 20px;
+    }
+    #ceobrand{
+        padding-bottom:  40px;
+    }
   
   
   
