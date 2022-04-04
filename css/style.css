@@ -64,6 +64,8 @@ nav div a {
     border-bottom: 2px solid blue;
 }
 
+
+
     /* menu a tendina  */
 .dropbtn {
     padding: 16px;
@@ -105,7 +107,7 @@ nav div a {
 /* jumbotron */
 #jumbo{
     background-color: #b4d0e7;
-    height: 85vh;
+    height: 75vh;
     min-height: 400px;
     width: 100%;
     
