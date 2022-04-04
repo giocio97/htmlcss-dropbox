@@ -185,6 +185,12 @@ img{
       display: inline;
   }
 
+  .cerchio-blu:hover i {
+     color: rgb(0, 98, 255);
+  }
+
+
+
         /* colonne */
   .piano{
       float: left;
